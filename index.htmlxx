@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield Security Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans p-8">
+    <div class="max-w-4xl mx-auto">
+        <header class="border-b border-gray-700 pb-4 mb-6 flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-emerald-400">CyberShield Dashboard</h1>
+            <span class="bg-emerald-500/10 text-emerald-400 px-3 py-1 rounded-full text-sm">System Operational</span>
+        </header>
+
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                <h2 class="text-xl font-semibold mb-4 text-blue-400">Automated Scanner Status</h2>
+                <p class="text-gray-400 text-sm mb-4">Real-time network security scanning and vulnerability analysis module.</p>
+                <div class="p-4 bg-gray-950 rounded-lg font-mono text-xs text-green-400">
+                    > Initializing CyberShield Engine...<br>
+                    > Targets mapped: Localhost / Subnets<br>
+                    > Active Threads: 16<br>
+                    > Status: Ready
+                </div>
+            </div>
+
+            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                <h2 class="text-xl font-semibold mb-4 text-purple-400">Project Overview</h2>
+                <ul class="text-sm text-gray-300 space-y-2">
+                    <li>• <strong>Architecture:</strong> Python Core / REST APIs</li>
+                    <li>• <strong>Execution:</strong> Termux CLI & GitHub Actions</li>
+                    <li>• <strong>Deployment:</strong> GitHub Pages</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+
+
